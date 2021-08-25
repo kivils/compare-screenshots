@@ -1,0 +1,17 @@
+{
+  "name": "compare-screenshots",
+  "version": "0.0.1",
+  "description": "Compare screenshots using pixelmatch",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julia Sesyunina",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "pixelmatch": "^5.2.1",
+    "pngjs": "^6.0.0"
+  }
+}
