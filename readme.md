@@ -4,15 +4,16 @@ This is a tool to compare images in 2 directories based on [pixelmatch](https://
 
 ## Installation
 
-- You have 2 options:
+- Install [nodejs](https://nodejs.org/en/download/) globally (if it's not installed yet)
 
-Download source files from [here](https://github.com/kivils/compare-screenshots). 
+- Get `compare-screenshots` tool. You have 2 options here:
 
-Check `Code` dropdown - `Download ZIP`. Then extract in some folder.
+**Download source files** from [here](https://github.com/kivils/compare-screenshots). 
+Click on `Code` dropdown, then choose `Download ZIP`. Then extract this ZIP archive in some folder.
 
 **OR:**
 
-Clone this repo to your machine:
+**Clone this repo** to your machine (you need [git](https://git-scm.com/) installed globally):
 
 `git clone https://github.com/kivils/compare-screenshots`
 
