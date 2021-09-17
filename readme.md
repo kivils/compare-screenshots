@@ -9,7 +9,7 @@ This is a tool to compare images in 2 directories based on [pixelmatch](https://
 - Get `compare-screenshots` tool. You have 2 options here:
 
 **Download source files** from [here](https://github.com/kivils/compare-screenshots). 
-Click on `Code` dropdown, then choose `Download ZIP`. Then extract this ZIP archive in some folder.
+Click on `Code` dropdown, then choose `Download ZIP`. Then extract this ZIP archive in some folder - in this tutorial `compare-screenshots`.
 
 **OR:**
 
@@ -32,10 +32,11 @@ Click on `Code` dropdown, then choose `Download ZIP`. Then extract this ZIP arch
 **Steps:**
 
 - Save base `pdf` as ``png``
-- Put all generated ``png``s to `src/images/base` folder
+- Go to `compare-screenshots` folder
+- Put all generated ``png``s to `src/images/base` folder inside `compare-screenshots` folder
 - Save edited `pdf` as `png`
-- Put all generated `png`s to `src/images/new` folder
-- In terminal root folder run `npm start`
+- Put all generated `png`s to `src/images/new` folder inside `compare-screenshots` folder
+- In `compare-screenshots` folder open terminal, and run `npm start`
   - You should see this message in terminal: `All images were compared. Please check "src/images/diff" folder`.
 - Diff files are in `src/images/diff` folder
 
